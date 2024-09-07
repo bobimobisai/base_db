@@ -3,11 +3,11 @@ version: '3.9'
 services:
   db:
     image: postgres:15
-    container_name: mini_app_db
+    container_name: db_api_mk
     environment:
-      POSTGRES_USER: ivan
-      POSTGRES_PASSWORD: mini_app_1712
-      POSTGRES_DB: mini_app_db
+      POSTGRES_USER: ivan_10012
+      POSTGRES_PASSWORD: mk_9933jh3-1349kdn994mdiq335
+      POSTGRES_DB: db_api_mk
     ports:
-      - "8489:5432"
+      - "9092:5432"
     restart: always
